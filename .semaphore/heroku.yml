@@ -9,7 +9,7 @@ blocks:
   - name: Deploy
     task:
       secrets:
-        - name: railsci
+        - name: rails-ci
       env_vars:
         - name: HEROKU_REMOTE
           value: https://git.heroku.com/railsci.git
