@@ -9,10 +9,10 @@ blocks:
   - name: Deploy
     task:
       secrets:
-        - name: newapp-heroku
+        - name: railsci
       env_vars:
         - name: HEROKU_REMOTE
-          value: https://git.heroku.com/uncut-myapp.git
+          value: https://git.heroku.com/railsci.git
       jobs:
       - name: Deploy
         commands:
